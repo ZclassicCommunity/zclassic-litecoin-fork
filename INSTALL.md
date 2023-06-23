@@ -1,7 +1,7 @@
 Building Zclassic
 ================
 
-BDB=$(pwd)/bdb4.8/db-4.8.30.NC/build_unix/build/
+BDB_PREFIX=$(pwd)/bdb4.8/db-4.8.30.NC/build_unix/build/
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" --enable-upnp-default
 make
