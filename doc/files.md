@@ -26,9 +26,9 @@ The data directory is the default location where the Zclassic Core files are sto
 
 Platform | Data directory path
 ---------|--------------------
-Linux    | `$HOME/.zclassic/`
-macOS    | `$HOME/Library/Application Support/Zclassic/`
-Windows  | `%APPDATA%\Zclassic\` <sup>[\[1\]](#note1)</sup>
+Linux    | `$HOME/.zclassic/zcl-cheeseburger/`
+macOS    | `$HOME/Library/Application Support/Zclassic/zcl-cheeseburger/`
+Windows  | `%APPDATA%\Zclassic\zcl-cheeseburger\` <sup>[\[1\]](#note1)</sup>
 
 2. A custom data directory path can be specified with the `-datadir` option.
 

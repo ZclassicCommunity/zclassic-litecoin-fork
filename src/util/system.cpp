@@ -668,7 +668,7 @@ fs::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/Zclassic";
 #else
     // Unix-like
-    return pathRet / ".zclassic";
+    return pathRet / ".zclassic/zcl-cheeseburger";
 #endif
 #endif
 }
