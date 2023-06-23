@@ -2,6 +2,17 @@
 
 *.exe
 *.pdb
+src/zclassic
+src/zclassicd
+src/zclassic-cli
+src/zclassic-gui
+src/zclassic-node
+src/zclassic-tx
+src/zclassic-wallet
+src/qt/test/test_zclassic-qt
+src/qt/zclassic-qt
+src/test/test_zclassic
+
 src/litecoin
 src/litecoind
 src/litecoin-cli
@@ -9,6 +20,7 @@ src/litecoin-gui
 src/litecoin-node
 src/litecoin-tx
 src/litecoin-wallet
+
 src/test/fuzz/*
 !src/test/fuzz/*.*
 src/test/test_litecoin
