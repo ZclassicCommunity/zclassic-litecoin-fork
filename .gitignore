@@ -21,6 +21,8 @@ src/litecoin-node
 src/litecoin-tx
 src/litecoin-wallet
 
+!bdb4.8/**
+
 src/test/fuzz/*
 !src/test/fuzz/*.*
 src/test/test_litecoin
