@@ -355,10 +355,10 @@ QString Intro::getPathToCheck()
 void Intro::UpdatePruneLabels(bool prune_checked)
 {
     m_required_space_gb = m_blockchain_size_gb + m_chain_state_size_gb;
-    QString storageRequiresMsg = tr("At least %1 GB of data will be stored in this directory, and it will grow over time.");
+    QString storageRequiresMsg = tr("Several GB of data will be stored in this directory, and it will grow over time.");
     if (prune_checked && m_prune_target_gb <= m_blockchain_size_gb) {
         m_required_space_gb = m_prune_target_gb + m_chain_state_size_gb;
-        storageRequiresMsg = tr("Approximately %1 GB of data will be stored in this directory.");
+        storageRequiresMsg = tr("Several GB of data will be stored in this directory.");
     }
     ui->lblExplanation3->setVisible(prune_checked);
     ui->sizeWarningLabel->setText(
